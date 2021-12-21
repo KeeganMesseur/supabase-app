@@ -7,6 +7,7 @@ import Account from './Account'
 export default function Home() {
   const [session, setSession] = useState(null)
 
+
   useEffect(() => {
     setSession(supabase.auth.session())
 
