@@ -15,6 +15,7 @@ export default function Auth() {
             alert(error.error_description || error.message)
         } finally {
             setLoading(false)
+
         }
     }
 
